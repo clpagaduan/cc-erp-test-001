@@ -9,8 +9,7 @@ Login To ERP
     Wait Until Element Is Visible    ${ERP_LoginBtn}    5
     Input Text                       ${ERP_Username}    ${username}
     Input Password                   ${ERP_Password}    ${password}
-    Click Button                     ${ERP_LoginBtn}
-    
+    Click Button                     ${ERP_LoginBtn}    
 
 Hover Menu
     [Arguments]                      ${ERP_SelectedMenu}

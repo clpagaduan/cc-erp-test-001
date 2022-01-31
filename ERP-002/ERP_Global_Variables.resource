@@ -6,6 +6,8 @@ ${browser}             Chrome
 #credentials
 ${user}                Test.Store.user01
 ${userpw}              StoreUser01
+${user1}               Test.Store.user02
+${userpw1}             StoreUser02
 
 #Login
 ${ERP_Username}        //*[@id="txtUsername"]
